@@ -52,5 +52,6 @@ var searchData=
   ['aws_5fiot_5fshadow_5freset_5flast_5freceived_5fversion',['aws_iot_shadow_reset_last_received_version',['../aws__iot__shadow__interface_8h.html#a2885a09ae8254c80f9db61c50c3018ca',1,'aws_iot_shadow_interface.h']]],
   ['aws_5fiot_5fshadow_5fupdate',['aws_iot_shadow_update',['../aws__iot__shadow__interface_8h.html#ab762304e44b7315a39e9f1ed5462a498',1,'aws_iot_shadow_interface.h']]],
   ['aws_5fiot_5fshadow_5fyield',['aws_iot_shadow_yield',['../aws__iot__shadow__interface_8h.html#a0c5d153544c57027f0f802bf29376f87',1,'aws_iot_shadow_interface.h']]],
-  ['aws_5futils_2eh',['aws_utils.h',['../aws__utils_8h.html',1,'']]]
+  ['aws_5futils_2eh',['aws_utils.h',['../aws__utils_8h.html',1,'']]],
+  ['api_20docs',['API docs',['../index.html',1,'']]]
 ];
