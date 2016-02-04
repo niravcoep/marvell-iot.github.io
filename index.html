@@ -19,32 +19,99 @@
 	<header role="banner">
 	  <a class="brand"><img class="u-max-full-width" src="assets/100x100.png"></a>
 	</header>
+  <body style="background-color:#FFFFFF">
 
-	<div class="container">
-    <section class="header">
-      <h2 class="title">AWS IoT Starter SDK</h2>
-    </section>
-	<div class="docs-section" id="intro">
-      	<p>The AWS IoT Starter SDK in conjunction with the AWS IoT Starter Kit provide embedded developers a way to quickly develop and prototype Wi-Fi connected embedded products that interface with peripherals over the UART, I2C, SPI, GPIO and other such interfaces at one end, and talk to the AWS IoT service at the other.</p>
-      <a href="https://twitter.com/share" class="twitter-share-button"
-      data-url="http://marvell-iot.github.io/aws_starter_sdk"
-      data-text="Marvell EZConnect IoT Starter Kit." data-via="marvellsemi" data-related="marvellsemi">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      <!-- <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.getskeleton.com&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=151131931646052" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px; width:140px" allowTransparency="true"></iframe> -->
-      <iframe src="http://ghbtns.com/github-btn.html?user=marvell-iot&repo=aws_starter_sdk&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="75" height="20"></iframe>
-      <iframe src="http://ghbtns.com/github-btn.html?user=marvell-iot&repo=aws_starter_sdk&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+        <div class="container">
+
+          <section class="header">
+                <h2 class="title">AWS IoT Starter SDK</h2>
+              </section>
+      <div class = "row">
+        <p>The AWS IoT Starter SDK in conjunction with the AWS IoT Starter Kit provide embedded developers a way to quickly develop and prototype Wi-Fi connected embedded products that interface with peripherals over the UART, I2C, SPI, GPIO and other such interfaces at one end, and talk to the AWS IoT service at the other.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="six columns value-prop">
+          <h3>Community and Support</h3>
+          <!-- <p> Some of the awesome project built using MW302.</p> -->
+            <ul>
+              <li>SDK hosted on GitHub<br/>
+                <iframe src="http://ghbtns.com/github-btn.html?user=marvell-iot&repo=aws_starter_sdk&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="90" height="20"></iframe>
+                <iframe src="http://ghbtns.com/github-btn.html?user=marvell-iot&repo=aws_starter_sdk&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/playlist?list=PLIYfgNqDE8r3Qhz1qDWJFI13GtgOjYdyz" style="color:black">Video tutorials</a>
+              </li>
+              <li>
+                <a href="http://marvell-iot.github.io/" style="color:black">API docs</a>
+              </li>
+              <li>
+                <a href="http://github.com/marvell-iot/aws_starter_sdk/wiki" style="color:black">Wiki</a>
+              </li>
+              <li>Gitter Chat channel<br/>
+                <a href="https://gitter.im/marvell-iot/aws_starter_sdk?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667" alt="Join the chat at https://gitter.im/marvell-iot/aws_starter_sdk" data-canonical-src="https://badges.gitter.im/Join%20Chat.svg" style="max-width:100%;"></a>
+              </li>
+
+            </ul>
+
+        </div>
+
+        <div class="six columns value-prop">
+          <h3>Sample Projects</h3>
+          <p> Here are some projects to help you get started</p>
+            <ul>
+              <li><a style="color:black" href="https://www.hackster.io/anujdeshpande/state-of-the-city-b81d85">State of the City</a> </li>
+              <li><a style="color:black" href="https://www.hackster.io/siddesh/pumbaa-it-is-gas-359664">Pumbaa, it is gas !</a> </li>
+              <li><a style="color:black" href="https://www.hackster.io/kedars/twitter-voter-807bb9">Twitter Voter</a></li>
+            </ul>
+        </div>
+
+  </div>
+  <div class="row">
+    <h2 id="mw302">Specs</h2>
+    <table>
+    <tbody>
+    <tr>
+    <td>CPU</td>
+    <td>ARM Cortex-M4F processor</td>
+    </tr>
+    <tr>
+    <td>Clock</td>
+    <td>Up to 200 Mhz</td>
+    </tr>
+    <tr>
+    <td>SRAM</td>
+    <td>512KB</td>
+    </tr>
+    <tr>
+    <td>Flash</td>
+    <td>External QSPI- Supports <a href="https://en.wikipedia.org/wiki/Execute_in_place">XIP</a></td>
+    </tr>
+    <tr>
+    <td>WiFi</td>
+    <td>Integrated 802.11 b/g/n, 2.4GHz</td>
+    </tr>
+    <tr>
+    <td>Package</td>
+    <td>QFN</td>
+    </tr>
+    <tr>
+    <td>Peripherals <br>  - USB OTG <br> - I2C <br> - ADC <br> - GPT/PWM <br> - SSP/I2S/SPI <br> - UART</td>
+    <td><br>Yes - x1<br>Yes - x2<br>Yes - x8 channels<br>Yes - x4<br>Yes - x3<br>Yes - x3</td>
+    </tr>
+    <tr>
+    <td>SDK supports : <br> <br> - Apple HomeKit <br> - AWS IoT<br> - Google Weave <br> - MQTT <br> - TLS <br> - ReST</td>
+    <td><br><br> Yes - Contact <a href="http://marvell.com">Marvell</a> <br> Yes - <a href="https://github.com/marvell-iot/aws_starter_sdk">GitHub Repo</a> <br> Yes - Contact <a href="http://marvell.com">Marvell</a> <br> Yes <br> Yes <br> Yes</td>
+    </tr>
+
+    </tbody>
+    </table>
     </div>
-	<br/>
-	<div class="docs-section">
-	  <a href="http://marvell-iot.github.io/aws_starter_sdk/"
-    style="color:black">AWS Starter SDK</a>
-	  <br/>
-	</div>
-	</div>
-	
+  <br/><br/><br/><br/>
 
-	<!-- <footer> -->
-	<!--   <small>Copyright &copy; <time datetime="2015">2015</time></small> -->
-	<!-- </footer> -->
+      </div>
+    </div>
   </body>
-</html>
+
+  </html>
